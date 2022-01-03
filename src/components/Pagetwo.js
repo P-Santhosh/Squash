@@ -7,7 +7,6 @@ import {
   Link,
   withRouter,
 } from "react-router-dom";
-import Header from "./Header";
 
 
 class Pagetwo extends Component {
