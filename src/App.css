@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.decrementstyle{
+  margin-left: 10px;
+}
+.incrementstyle{
+  margin-left: 110px;
+}
+.valuestyle{
+  margin-left: 130px;
+}
+.headerList{
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+}
+.headerLink{
+  text-decoration: none;
+}
+.footer{
+  text-align: center;
+}
+.logos img {
+  width: 7%;
+  margin-left: 8px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #acacac;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.products{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.products img{
+  width: 30%;
+}
+.product{
+  padding :40px;
+}
+.details{
+ padding: 10px;
+}
+.details img{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  padding-left: 30px;
+}
+.todo{
+  margin-top: 50px;
+  margin-left: 600px;
+}
+.todo1{
+  margin-left: 60px;
+}
+.toop{
+  margin-top: 20px;
+  
+}
+.added{
+  margin-left:700px;
+}
